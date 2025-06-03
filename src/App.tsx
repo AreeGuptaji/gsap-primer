@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom/client";
-
+import Hero from "./components/Hero";
 import "./index.css";
 
 const App = () => (
-  <div className="mt-10 text-3xl mx-auto max-w-6xl">
-    <h1 className="text-5xl font-robert-medium">Welcome to Awwwards.com</h1>
-  </div>
+  <main className="relative min-h-screen w-screen overflow-x-hidden">
+    <Hero />
+  </main>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("app") as HTMLElement);
