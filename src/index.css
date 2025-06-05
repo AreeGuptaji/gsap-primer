@@ -6,3 +6,10 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 976px;
 }
+
+.old-class {
+  color: aqua;
+}
+.new-class {
+  color: red;
+}
